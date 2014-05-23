@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+     Copyright (C) 2013 SlimRoms Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Toasts for various transient network events -->
+    <!-- Toast text for Unconditional Call Forwarding enabled  -->
+    <string name="call_notif_unconditionalCF">Renvoi inconditionnel actif</string>
+    <!-- Toast text for Conditional Call Forwarding enabled  -->
+    <string name="call_notif_conditionalCF">Renvoi d\'appel conditionnel actif</string>
+    <!-- Toast text for a forwarded MO call  -->
+    <string name="call_notif_MOcall_forwarding">Appel sortant est renvoyé</string>
+    <!-- Toast text for MO call, when the caller & callee both belng to a CUG group -->
+    <string name="call_notif_cugcall">Appel en groupe fermé d\'utilisateurs</string>
+    <!-- In-call screen: status label when MO calls are barred -->
+    <string name="call_notif_outgoing_barred">Les appels sortants restreints</string>
+    <!-- Toast text for MO calls, when incoming calls are barred at remote party -->
+    <string name="call_notif_incoming_barred">Les appels entrants sont restreints à distance</string>
+    <!-- Toast text for MO calls when CLIR Suppression is rejected -->
+    <string name="call_notif_clir_suppression_rejected">Suppression de votre numéro rejeté par le réseau</string>
+    <!-- In-call screen: status label when MO call gets deflected to another party -->
+    <string name="call_notif_call_deflected">Appel renvoyé par la partie à distance</string>
+    <!-- Toast text for incoming call being forwarded to other remote party  -->
+    <string name="call_notif_MTcall_forwarding">Appel entrant est transféré</string>
+    <!-- Toast text for incoming call which is part of MultiParty Call -->
+    <string name="call_notif_multipartycall">Appel de groupe</string>
+    <!-- Toast text for incoming call which is answered,put on hold & then released -->
+    <string name="call_notif_callonhold_released">Appel réalisé à distance</string>
+    <!-- Toast text for incoming call forward check received -->
+    <string name="call_notif_forwardcheckreceived">L\'appel a été renvoyé</string>
+    <!-- Toast text for incoming call connecting through ECT -->
+    <string name="call_notif_callconnectingect">Appel réalisé à travers le transfert d\'appel explicite</string>
+    <!-- Toast text for incoming call connected through ECT -->
+    <string name="call_notif_callconnectedect">Appel réalisé à travers le transfert d\'appel explicite</string>
+
+    <!-- Advanced Settings -->
+    <string name="incall_vibration">Vibration appel entrant</string>
+    <string name="vibrate_outgoing">Vibrer sur réponse</string>
+    <string name="vibrate_call_waiting">Vibrer sur appel en attente</string>
+    <string name="vibrate_hangup">Vibrer au décroché</string>
+    <string name="vibrate_45">Vibrer chaque minute</string>
+    <string name="vibrate_45_sum">Vibre toutes les 45 secondes de chaque minute pendant les appels sortants</string>
+    <string name="show_ssn_label">Notification de l\'événement</string>
+    <string name="show_ssn_summary">Afficher une notification pour différents événements de réseau liés à la gestion des appels</string>
+
+    <!-- Blacklist preferences -->
+    <string name="blacklist_title">List noire</string>
+    <string name="blacklist_summary_disabled">Désactivé</string>
+    <string name="blacklist_summary">Les appels entrants provenant de numéros de téléphone dans la liste noire seront bloqués</string>
+
+    <!-- Blacklist notifications -->
+    <string name="blacklist_notification">Bloqué un appel de %s</string>
+    <string name="blacklist_notification_private_number">Appel d\'un numéro privé bloqué</string>
+    <string name="blacklist_notification_list_private">Privé</string>
+    <string name="blacklist_notification_unknown_number">Numéro inconnu %s bloqué</string>
+    <string name="blacklist_notification_multiple"><xliff:g id="count">%d</xliff:g> appels ont été bloqués</string>
+    <string name="unblock_number">Débloquer</string>
+
+    <!-- Call UI in background -->
+    <string name="bg_incall">Appel entrant en arrière-plan</string>
+    <string name="bg_incall_summary">Garder l\'affichage de l\'appel entrant en arrière-plan lorsque l\'écran est allumé, afficher la notification et jouer la sonnerie seulement</string>
+
+    <!-- Sprint MWI Quirk: Phantom message wait indicator workaround -->
+    <string name="mwi_notification_title">Indicateur de message d\'attente</string>
+    <string name="mwi_notification_summary">Voir le message de notification d\'attente de messagerie vocale</string>
+
+    <!-- Permission for notification-bar network toggle -->
+    <string name="perm_change_mobile_network">changer le mode réseau (2G/3G)</string>
+    <string name="perm_change_mobile_network_desc">Permet à l\'application de modifier les données entre 2G et 3G de données à tout moment. 3G est plus rapide, mais consomme plus de batterie et peut entraîner des frais supplémentaires.</string>
+
+    <!-- Setting title for the flip action setting. -->
+    <string name="flip_action_title">Action retournement</string>
+
+    <!-- Dialog title of the flip action setting. -->
+    <string name="flip_action_dialog_title">Retourner l\'appareil a\u2026</string>
+
+    <!-- Setting summary for the flip action setting. -->
+    <string name="flip_action_summary">Le retournement de l\'appareil va <xliff:g id="action">%s</xliff:g></string>
+
+    <!-- Values for flip action array entries -->
+    <string name="entry_do_nothing">Ne rien faire</string>
+    <string name="entry_mute_ringer">Sonnerie muette</string>
+    <string name="entry_dismiss_call">Rejeter l\'appel</string>
+    <string name="summary_do_nothing">Ne rien faire</string>
+    <string name="summary_mute_ringer">Sonnerie muette</string>
+    <string name="summary_dismiss_call">Rejeter l\'appel</string>
+
+    <string name="personal_category">Paramètres personnel</string>
+
+    <!-- My Phone Number field -->
+    <string name="phone_number_label">Mon numéro de téléphone</string>
+    <string name="phone_number_summary">Entrer le numéro de téléphone de ce téléphone</string>
+
+    <!-- Mobile network settings screen, setting check box name -->
+    <string name="national_roaming">Itinérance nationale des données</string>
+    <!-- Mobile network settings screen, setting summary text when check box is selected -->
+    <string name="national_roaming_enable">Connectez-vous à des services de données en itinérance nationale</string>
+    <!-- Mobile network settings screen, setting summary text when check box is clear -->
+    <string name="national_roaming_disable">Ne pas se connecter à des services de données en itinérance nationale</string>
+
+    <!-- Noise suppression -->
+    <string name="noise_suppression_title">Suppression du bruit</string>
+    <string name="noise_suppression_summary">Activer la suppression du bruit pour les appels</string>
+
+    <!-- Number lookup -->
+    <string name="number_lookup">Recherche numéro de téléphone</string>
+    <string name="enable_forward_lookup_title">Recherche directe</string>
+    <string name="enable_forward_lookup_summary">Afficher les lieux à proximité lors de la recherche dans le numéroteur</string>
+    <string name="enable_people_lookup_title">Recherche de personnes</string>
+    <string name="enable_people_lookup_summary">Montrez les résultats en ligne pour les personnes lors de la recherche dans le numéroteur</string>
+    <string name="enable_reverse_lookup_title">Recherche inversée</string>
+    <string name="enable_reverse_lookup_summary">Rechercher des informations sur la personne ou le lieu pour les numéros inconnus lors d\'un appels entrants</string>
+    <string name="choose_lookup_providers">Choisir fournisseurs de recherche</string>
+    <string name="choose_forward_lookup_provider_title">Choisir fournisseur pour la recherche directe</string>
+    <string name="choose_people_lookup_provider_title">Choisir fournisseur pour la recherche de personnes</string>
+    <string name="choose_reverse_lookup_provider_title">Choisir fournisseur pour la recherche inversée</string>
+
+    <!-- Sim contacts management -->
+    <string name="exportContacts">Exporter les contacts vers la carte SIM\u2026</string>
+    <string name="ContactScreen">Ajouter/éditer un contact SIM</string>
+    <string name="ExportContactScreen">Exporter les contacts téléphone vers la SIM </string>
+    <string name="addSimEntries">Ajouter un contact SIM</string>
+    <string name="deleteAllSimEntries">Effacer tous les contacts SIM</string>
+    <string name="deleteSimContacts">Suppression des contacts SIM</string>
+    <string name="editContact">Éditer</string>
+    <string name="sendSms">Envoyer SMS</string>
+    <string name="delete">Effacer</string>
+    <string name="dial">Faire un numéro</string>
+    <string name="enterName">Entrer nom:</string>
+    <string name="enterNumber">Entrer numéro téléphone:</string>
+    <string name="contactAddSuccess">Le contact a été ajouté avec succès sur la SIM </string>
+    <string name="contactAddFailed">Impossible d\'ajouter un contact sur ​​la carte SIM !!!</string>
+    <string name="contactUpdateSuccess">Contact mis à jour avec succès sur la carte SIM </string>
+    <string name="contactUpdateFailed">Mise a jour impossible du contact sur ​​la carte SIM !!!</string>
+    <string name="contactdeleteSuccess">Le contact a été supprimé avec succès sur la SIM </string>
+    <string name="contactdeleteFailed">Impossible de supprimer un contact de ​​la carte SIM !!!</string>
+    <string name="allContactdeleteSuccess">Tous les contacts ont été supprimés avec succès de la SIM </string>
+    <string name="allContactdeleteFailed">Impossible de supprimer tous les contacts de ​​la carte SIM !!!</string>
+    <string name="exportAllcontatsSuccess">Tous les contacts ont été exportés avec succès de la SIM </string>
+    <string name="exportAllcontatsFailed">Impossible d\'exporter tous les contacts de ​​la carte SIM !!!</string>
+    <string name="cursorError">Le curseur n\'a pas les données correctes !!! </string>
+</resources>
